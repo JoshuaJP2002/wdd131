@@ -1,0 +1,19 @@
+@media (min-width: 37.5em) {
+
+  #menu {
+    display: none;
+  }
+
+  .navigation {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navigation a {
+    display: block;
+  }
+
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
