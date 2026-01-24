@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discover Spain</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Spain</h1>
+  </header>
+
+  <main>
+    <div class="hero">
+      <picture>
+        <source srcset="images/spain-large.webp" media="(min-width: 768px)">
+        <img src="images/spain-small.webp" alt="Landscape view of Spain">
+      </picture>
+    </div>
+
+    <div class="content">
+      <section class="data">
+        <h2>Data</h2>
+        <ul>
+          <li><strong>Area:</strong> 587,041 sq km</li>
+          <li><strong>Population:</strong> 48 million</li>
+          <li><strong>Capital:</strong> Madrid</li>
+          <li><strong>Languages:</strong> Spanish</li>
+          <li><strong>Currency:</strong> Euro (€)</li>
+          <li><strong>Time Zone:</strong> UTC+1</li>
+          <li><strong>Calling Code:</strong> +34</li>
+          <li><strong>Internet TLD:</strong> .es</li>
+        </ul>
+      </section>
+
+      <section class="weather">
+        <h2>Weather</h2>
+        <p><strong>Temperature:</strong> <span id="temp">10°C</span></p>
+        <p><strong>Conditions:</strong> Partly Cloudy</p>
+        <p><strong>Wind:</strong> 5 km/h</p>
+        <p><strong>Wind Chill:</strong> <span id="chill">9.8°C</span></p>
+      </section>
+    </div>
+  </main>
+
+
+<footer>
+  <p>
+    © <span id="year"></span> | Joshua Jiménez | Spain<br>
+    Last Modified: <span id="modified"></span>
+  </p>
+</footer>
+
+</body>
+</html>
