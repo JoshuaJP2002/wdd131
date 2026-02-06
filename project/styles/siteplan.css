@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    background:#0f172a;
+    color:#f8fafc;
+    font-family:Roboto, Arial, sans-serif;
+}
+
+header{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+}
+
+h1,h2,h3{
+    font-family:Oswald, Arial, sans-serif;
+    color:#dc2626;
+}
+
+section{
+    background:#334155;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+.wireframe{
+    margin-top:10px;
+}
+
+.box{
+    border:2px dashed white;
+    padding:15px;
+    margin:8px 0;
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    background:#020617;
+}
