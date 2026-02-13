@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse available vehicles at Jimenez Auto Dealer. Filter cars by price and find the right vehicle for you.">
+    <title>Inventory | Jimenez Auto Dealer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="scripts/inventory.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Jimenez Auto Dealer</h1>
+
+    <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="references.html">References</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="inventory-intro">
+        <h2>Available Vehicles</h2>
+        <p>Browse our inspected vehicles and filter by price.</p>
+    </section>
+
+    <!-- FILTER (required for event listener + conditionals) -->
+    <section class="filter-box">
+        <label for="priceFilter">Filter by Price:</label>
+        <select id="priceFilter">
+            <option value="all">All Vehicles</option>
+            <option value="15000">Under $15,000</option>
+            <option value="17000">Under $17,000</option>
+            <option value="20000">Under $20,000</option>
+        </select>
+    </section>
+
+    <!-- JS will insert cars here -->
+    <section id="carContainer" class="car-grid"></section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Jimenez Auto Dealer</p>
+</footer>
+
+</body>
+</html>

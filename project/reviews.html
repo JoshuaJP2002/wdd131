@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read customer reviews or leave your own review for Jimenez Auto Dealer.">
+    <title>Reviews | Jimenez Auto Dealer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="scripts/reviews.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Jimenez Auto Dealer</h1>
+
+    <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="references.html">References</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="review-form-section">
+    <h2>Leave a Review</h2>
+
+    <form id="reviewForm">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="rating">Rating:</label>
+        <select id="rating" required>
+            <option value="5">5 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="2">2 Stars</option>
+            <option value="1">1 Star</option>
+        </select>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" required></textarea>
+
+        <button type="submit">Submit Review</button>
+
+    </form>
+</section>
+
+<section>
+    <h2>Customer Reviews</h2>
+    <div id="reviewsContainer"></div>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Jimenez Auto Dealer</p>
+</footer>
+
+</body>
+</html>
